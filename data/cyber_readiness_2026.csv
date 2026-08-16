@@ -1,0 +1,26 @@
+section,order,label,value,denominator,period,source_url
+headline,1,Identified any breach or attack,43,All UK businesses,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+headline,2,Formal incident response plan,25,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+headline,3,Staff training or awareness,19,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,1,Updated malware protection,81,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,2,Secure cloud backup,74,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,3,Password policy,74,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,4,Network firewall,74,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,5,Restricted admin rights,73,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,6,Two-factor authentication,47,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,7,VPN for remote access,36,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+control,8,User monitoring,33,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+readiness,1,Cyber risk assessment,30,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+readiness,2,Formal incident response plan,25,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+readiness,3,Staff training or awareness,19,All UK businesses,2025/26 survey,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,1,Phishing,88,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,2,Impersonation,28,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,3,Malware,16,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,4,Bank account hacking,8,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,5,Denial of service,6,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,6,Account takeover,5,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+attack_type,7,Ransomware,3,Businesses identifying any breach or attack,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+business_size,1,Micro,42,UK businesses by size,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+business_size,2,Small,46,UK businesses by size,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+business_size,3,Medium,65,UK businesses by size,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
+business_size,4,Large,69,UK businesses by size,Last 12 months,https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026/cyber-security-breaches-survey-20252026
