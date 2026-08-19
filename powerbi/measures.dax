@@ -1,0 +1,60 @@
+-- UK Retail Pulse: core DAX measure layer
+-- Model relationship: DateTable[Date] (1) -> FactRetail[Date] (*)
+
+Value Index =
+AVERAGE ( FactRetail[ValueIndex] )
+
+Volume Index =
+AVERAGE ( FactRetail[VolumeIndex] )
+
+Latest Visible Month =
+MAX ( DateTable[Date] )
+
+Latest Value Index =
+VAR LatestMonth = [Latest Visible Month]
+RETURN
+    CALCULATE ( [Value Index], KEEPFILTERS ( DateTable[Date] = LatestMonth ) )
+
+Latest Volume Index =
+VAR LatestMonth = [Latest Visible Month]
+RETURN
+    CALCULATE ( [Volume Index], KEEPFILTERS ( DateTable[Date] = LatestMonth ) )
+
+Value YoY % =
+VAR LatestMonth = [Latest Visible Month]
+VAR CurrentValue = CALCULATE ( [Value Index], DateTable[Date] = LatestMonth )
+VAR PriorValue = CALCULATE ( [Value Index], DateTable[Date] = EDATE ( LatestMonth, -12 ) )
+RETURN
+    DIVIDE ( CurrentValue - PriorValue, PriorValue )
+
+Volume YoY % =
+VAR LatestMonth = [Latest Visible Month]
+VAR CurrentValue = CALCULATE ( [Volume Index], DateTable[Date] = LatestMonth )
+VAR PriorValue = CALCULATE ( [Volume Index], DateTable[Date] = EDATE ( LatestMonth, -12 ) )
+RETURN
+    DIVIDE ( CurrentValue - PriorValue, PriorValue )
+
+Value–Volume Gap (pp) =
+( [Value YoY %] - [Volume YoY %] ) * 100
+
+Rolling 3M Volume Index =
+VAR LatestMonth = MAX ( DateTable[Date] )
+RETURN
+    AVERAGEX (
+        DATESINPERIOD ( DateTable[Date], LatestMonth, -3, MONTH ),
+        [Volume Index]
+    )
+
+Sector Volume Rank =
+RANKX (
+    ALLSELECTED ( FactRetail[Sector] ),
+    [Volume YoY %],
+    ,
+    DESC,
+    DENSE
+)
+
+Dynamic KPI Label =
+VAR SectorName = SELECTEDVALUE ( FactRetail[Sector], "All selected sectors" )
+VAR MonthLabel = FORMAT ( [Latest Visible Month], "mmm yyyy" )
+RETURN SectorName & " · " & MonthLabel
