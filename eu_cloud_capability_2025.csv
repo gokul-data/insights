@@ -1,0 +1,11 @@
+metric,segment,value_pct,denominator,source_date
+Paid cloud adoption,EU enterprises,52.74,All enterprises,2026-06-02
+Paid cloud adoption,Small,49.30,All small enterprises,2026-06-02
+Paid cloud adoption,Medium,66.78,All medium enterprises,2026-06-02
+Paid cloud adoption,Large,84.67,All large enterprises,2026-06-02
+SaaS,EU,96.44,Cloud adopters,2026-06-02
+IaaS,EU,77.25,Cloud adopters,2026-06-02
+PaaS,EU,26.08,Cloud adopters,2026-06-02
+PaaS,Small,22.59,Small cloud adopters,2026-06-02
+PaaS,Medium,34.50,Medium cloud adopters,2026-06-02
+PaaS,Large,52.86,Large cloud adopters,2026-06-02
