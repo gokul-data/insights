@@ -1,0 +1,6 @@
+metric,period,value,unit,comparison,source_release
+Vacancies,May-Jul 2026,707000,count,,ONS August 2026
+Vacancies change,May-Jul 2026,-6000,count,vs Feb-Apr 2026,ONS August 2026
+Vacancies change,May-Jul 2026,-19000,count,vs May-Jul 2025,ONS August 2026
+Unemployed people per vacancy,Apr-Jun 2026,2.5,ratio,unchanged since Jul-Sep 2025,ONS August 2026
+Sectors with quarterly vacancy decline,May-Jul 2026,9,count,of 18 sectors,ONS August 2026
