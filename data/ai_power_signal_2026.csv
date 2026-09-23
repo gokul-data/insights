@@ -1,0 +1,11 @@
+metric,period,value,unit,status,source
+Global data-centre electricity consumption,2025,485,TWh,Observed/estimated,IEA Key Questions on Energy and AI 2026
+Global data-centre electricity consumption,2030,950,TWh,Central projection,IEA Key Questions on Energy and AI 2026
+AI-focused data-centre electricity consumption index,2025,100,index,Reference base,IEA Key Questions on Energy and AI 2026
+AI-focused data-centre electricity consumption index,2030,300,index,Projection (approximately triple),IEA Key Questions on Energy and AI 2026
+AI server power-density index,2020,1,index,Reference base,IEA Key Questions on Energy and AI 2026
+AI server power-density index,2025,11,index,Observed change,IEA Key Questions on Energy and AI 2026
+AI server power-density index,2027,44,index,Projection (fourfold from 2025),IEA Key Questions on Energy and AI 2026
+Share of national electricity-demand growth attributable to data centres,United States,50,percent,Approximate projection,IEA Key Questions on Energy and AI 2026
+Share of national electricity-demand growth attributable to data centres,Japan,50,percent,More than this threshold,IEA Key Questions on Energy and AI 2026
+Share of national electricity-demand growth attributable to data centres,Malaysia,20,percent,Up to this threshold,IEA Key Questions on Energy and AI 2026
